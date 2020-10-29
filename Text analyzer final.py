@@ -1,7 +1,7 @@
 from copy import deepcopy
 print("-" * 40)
 print("Welcome to the app. Please log in:")
-prjmeno = input("USERNAME")#změnit na inputy
+prjmeno = input("USERNAME")
 heslo = input("PASSWORD")
 uzivatelé = {"bob": "123","ann": "pass123","mike": "password123","liz": "pass123"}
 if uzivatelé.get(prjmeno) != heslo:
